@@ -5,7 +5,7 @@ import streamlit as st
 #loading the data 
 @st.cache_data
 def load_data():
-    path = 'data/kc_house_data.csv'
+    path = 'DATA/kc_house_data.csv'
     df = pd.read_csv(path)
     return df 
 
